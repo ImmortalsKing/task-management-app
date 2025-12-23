@@ -5,11 +5,13 @@ import ProjectsComponent from '../../pages/ProjectsComponent'
 import CommentsComponent from '../../pages/CommentsComponent'
 import TagsComponent from '../../pages/TagsComponent'
 import SupportComponent from "../../pages/SupportComponent";
+import WelcomeComponent from "../../pages/WelcomeComponent";
 
 const Content = () => {
     return (
-        <div className="fixed right-1/6 top-25">
+        <div className="fixed right-1/6 top-25 w-full h-full">
             <Routes>
+                <Route path="/" element={<WelcomeComponent />} />
                 <Route path="/tasks" element={<TasksComponent />} />
                 <Route path="/users" element={<UsersComponent />} />
                 <Route path="/projects" element={<ProjectsComponent />} />

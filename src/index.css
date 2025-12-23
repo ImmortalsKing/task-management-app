@@ -1,8 +1,22 @@
 @import 'tailwindcss';
 
+@theme{
+    --font-sardar: "sardar", sans-serif;
+}
+
 @font-face {
     font-family: "shabnam";
     src: url("./assets/fonts/Shabnam-FD-WOL.ttf") format("WOFF")
+}
+
+@font-face {
+    font-family: "fetne";
+    src: url("./assets/fonts/Fetne.ttf") format("WOFF")
+}
+
+@font-face {
+    font-family: "sardar";
+    src: url("./assets/fonts/Sardar.ttf") format("WOFF")
 }
 
 * {
