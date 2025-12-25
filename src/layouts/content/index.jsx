@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router";
-import TasksComponent from '../../pages/TasksComponent'
-import UsersComponent from '../../pages/UsersComponent'
-import ProjectsComponent from '../../pages/ProjectsComponent'
-import CommentsComponent from '../../pages/CommentsComponent'
-import TagsComponent from '../../pages/TagsComponent'
-import SupportComponent from "../../pages/SupportComponent";
-import WelcomeComponent from "../../pages/WelcomeComponent";
+import TasksComponent from '../../pages/tasks/TasksComponent'
+import UsersComponent from '../../pages/users/UsersComponent'
+import ProjectsComponent from '../../pages/projects/ProjectsComponent'
+import CommentsComponent from '../../pages/comments/CommentsComponent'
+import TagsComponent from '../../pages/tags/TagsComponent'
+import SupportComponent from "../../pages/supports/SupportComponent";
+import WelcomeComponent from "../../pages/welcome/WelcomeComponent";
 
 const Content = () => {
     return (
